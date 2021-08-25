@@ -1,0 +1,254 @@
+*{
+    margin: 0 auto;
+}
+#section1{
+    width: 100%;
+    height: 70px;
+    background-color: rgba(155, 4, 4, 0.986);
+}
+#img1{
+    width: 100px;
+    border-radius: 70%;
+    margin:2px 345px 0px 50px;
+}
+.flex{
+    display: flex;
+}
+button{
+    background-color: rgba(155, 4, 4, 0.986);
+    border: 0px;
+    margin-top: 10px 0px 0px 40px;
+    border-radius: 10px;
+}
+.button{
+    display: block;
+    margin-bottom: 5px;
+}
+#buttondiv{
+    margin-top: 20px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+i{
+    color: white;    
+}
+#dropbox{
+    width: 250px;
+    height: 80px;
+    padding: 10px;
+    position: absolute;
+    display: none;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 3px 4px rgba(116, 105, 105, 0.473);
+}
+.dropdown{
+    height: 20px;
+}
+.dropdown:hover #dropbox, .dropdown:hover #dropbox1{
+    display: block;
+}
+#dropbox1{
+    width: 150px;
+    height: 80px;
+    padding: 10px;
+    position: absolute;
+    display: none;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 3px 4px rgba(116, 105, 105, 0.473);
+}
+h1{
+    text-align: center;
+    color: maroon;
+    margin: 20px 0px 20px 0px;
+}
+sub{
+    font-family: fantasy;
+    font-size: 18px;
+}
+#bar{
+    font-size: 30px;
+    margin-left: 50px;
+}
+#nav{
+    width: 400px;
+    height: 500px;
+    background-color: black;
+    position: absolute;
+    display: none;
+}
+#nav1, #nav2, #nav3, #nav4, #nav5, #nav6, #nav7, #nav8{
+    width: 100%;
+    height: 12.3%;
+    padding-left: 15px;
+    border-bottom: 1px solid gray;
+}
+#nav a{
+    font-size: 30px;
+    text-align: center;
+}
+#bardiv:hover #nav{
+    display: block;
+}
+#leftnav{
+    margin-top: 20px;
+    width: 400px;
+    height: 500px;
+    background-color: black;
+    position: absolute;
+    display: none;
+}
+#leftbardiv{
+    display: none;
+}
+#leftbardiv:hover #leftnav{
+    display: block;
+}
+#firstsection{
+    width: 80%;
+    height: 300px;
+    margin-bottom: 20px;
+}
+#firstsection #div1, #firstsection #div2, #firstsection #div3, #firstsection #div4{
+    width: 240px;
+    height: 100%;
+}
+#firstsection #div1 img, #firstsection #div2 img, #firstsection #div3 img, #firstsection #div4 img{
+    width: 100%;
+}
+#secondsection{
+    width: 80%;
+    margin-bottom: 30px;
+}
+#secondsection p{
+    font-size: 20px;
+}
+#section2{
+    width: 70%;
+    height: 500px;
+}
+#section2 #div1{
+    width: 100%;
+    height: 200px;
+}
+#section2 #div1 img{
+    width: 100%;
+}
+#section3{
+    width: 80%;
+    height: 2000px;
+    margin-bottom: 30px;
+    background-color:  rgba(155, 4, 4, 0.986);
+}
+#section3 #p1{
+    color: white;
+    font-size: 34px;
+    text-align: center;
+}
+#section3 #div1, #section3 #div2, #section3 #div3, #section3 #div4{
+    width: 50%;
+    margin-top: 20px;
+}
+#section3 #div1 img, #section3 #div2 img, #section3 #div3 img, #section3 #div4 img{
+    width: 100%;
+}
+#section3 #p2{
+    color: white;
+    font-size: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+#comment{
+    width: 40%;
+    height: 400px;
+}
+#comment label{
+    font-size: 30px;
+}
+textarea{
+    width: 50%;
+    height: 150px;
+    margin-top: 20px;
+    border: 0px;
+    border-bottom: 1px solid gray;
+}
+input{
+    width: 50%;
+    height: 30px;
+    border: 0px;
+    border-bottom: 1px solid gray;
+}
+span{
+    color:rgba(155, 4, 4, 0.986);
+}
+#comment #commentbox{
+    width: 90%;
+    height: 250px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 3px 4px rgba(116, 105, 105, 0.473);
+}
+#buttontext{
+    color: white;
+    height: 30px;
+    width: 150px;
+}    
+footer{
+    width: 100%;
+    height: 40px;
+    margin-top: 30px;
+    background-color: rgba(82, 82, 82, 0.849);
+}
+footer p{
+    color: white;
+    font-size: 12px;
+    text-align: center;
+}
+
+@media screen and (max-width:1024px){
+    #img1{
+        margin-right: 100px;
+    }
+    #buttondiv{
+        margin-left: 5px;
+    }
+}
+@media only screen and (max-width:600px){
+    #buttondiv{
+        display: none;
+    }
+    h1{
+        font-size: 18px;
+    }
+    #leftbardiv{
+        display: block;
+        margin: 15px 0px 0px 10px;
+    }
+    #section2 #div1{
+       height: 600px;
+    }
+    #firstsection{
+        display: block;
+        height: 1500px;
+    }
+    #firstsection div{
+        display: inline;
+    }
+    #firstceleb{
+        display: block;
+    }
+    #secondceleb{
+        display: block;
+    }
+    #section3{
+        height: 3000px;
+        border: 1px solid black;
+    }
+    #comment{
+        width: 80%;
+    }
+}    

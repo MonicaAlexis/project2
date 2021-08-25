@@ -1,0 +1,244 @@
+*{
+    margin: 0 auto;
+}
+#section1{
+    width: 100%;
+    height: 70px;
+    background-color: rgba(155, 4, 4, 0.986);
+}
+#img1{
+    width: 100px;
+    border-radius: 70%;
+    margin:2px 345px 0px 50px;
+}
+.flex{
+    display: flex;
+}
+button{
+    background-color: rgba(155, 4, 4, 0.986);
+    border: 0px;
+    margin-top: 10px 0px 0px 40px;
+    border-radius: 10px;
+}
+.button{
+    display: block;
+    margin-bottom: 5px;
+}
+#buttondiv{
+    margin-top: 20px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+i{
+    color: white;    
+}
+#dropbox{
+    width: 250px;
+    height: 80px;
+    padding: 10px;
+    position: absolute;
+    display: none;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 3px 4px rgba(116, 105, 105, 0.473);
+}
+.dropdown{
+    height: 20px;
+}
+.dropdown:hover #dropbox, .dropdown:hover #dropbox1{
+    display: block;
+}
+#dropbox1{
+    width: 150px;
+    height: 80px;
+    padding: 10px;
+    position: absolute;
+    display: none;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 3px 4px rgba(116, 105, 105, 0.473);
+}
+h1{
+    text-align: center;
+    color: maroon;
+    margin: 20px 0px 20px 0px;
+}
+sub{
+    font-family: fantasy;
+    font-size: 18px;
+}
+#bar{
+    font-size: 30px;
+    margin-left: 50px;
+}
+#nav{
+    width: 400px;
+    height: 500px;
+    background-color: black;
+    position: absolute;
+    display: none;
+}
+#nav1, #nav2, #nav3, #nav4, #nav5, #nav6, #nav7, #nav8{
+    width: 100%;
+    height: 12.3%;
+    padding-left: 15px;
+    border-bottom: 1px solid gray;
+}
+#nav a{
+    font-size: 30px;
+    text-align: center;
+}
+#bardiv:hover #nav{
+    display: block;
+}
+#leftnav{
+    margin-top: 20px;
+    width: 400px;
+    height: 500px;
+    background-color: black;
+    position: absolute;
+    display: none;
+}
+#leftbardiv{
+    display: none;
+}
+#leftbardiv:hover #leftnav{
+    display: block;
+}
+#section2{
+    width: 80%;
+    height: 550px;
+    margin-bottom: 20px;
+}
+#section2 #div1{
+    width: 50%;
+}
+#section2 #div1 img{
+    width: 100%;
+}
+#section2 #div2{
+    width: 50%;
+    padding-left: 10px;
+}
+#section2 .p1{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+#section3{
+    width: 80%;
+    height: 800px;
+    margin-bottom: 30px;
+}
+#section3 #div1, #section3 #div2, #section3 #div3{
+    width: 33%;
+}
+#section3 #div1 img, #section3 #div2 img, #section3 #div3 img{
+    width: 100%;
+}
+#section4{
+    width: 80%;
+    height: 3300px;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+#section4 .p1{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+#section4 .p2{
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+#section4 img{
+    width: 100%;
+}
+#comment{
+    width: 40%;
+    height: 400px;
+}
+#comment label{
+    font-size: 30px;
+}
+textarea{
+    width: 50%;
+    height: 150px;
+    margin-top: 20px;
+    border: 0px;
+    border-bottom: 1px solid gray;
+}
+input{
+    width: 50%;
+    border: 0px;
+    height: 30px;
+    border-bottom: 1px solid gray;
+}
+span{
+    color:rgba(155, 4, 4, 0.986);
+}
+#comment #commentbox{
+    width: 90%;
+    height: 250px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 3px 4px rgba(116, 105, 105, 0.473);
+}
+#buttontext{
+    color: white;
+    height: 30px;
+    width: 150px;
+}
+footer{
+    width: 100%;
+    height: 60px;
+    margin-top: 30px;
+    background-color: rgba(82, 82, 82, 0.849);
+}
+footer p{
+    color: white;
+    font-size: 16px;
+    text-align: center;
+}
+
+@media screen and (max-width:1024px){
+    #img1{
+        margin-right: 70px;
+    }
+    #buttondiv{
+        margin-left: 5px;
+    }
+}
+@media screen and (max-width:600px){
+    #buttondiv{
+        display: none;
+    }
+    #leftbardiv{
+        display: block;
+        margin: 15px 0px 0px 10px;
+    }
+    #section2{
+        height: 1000px;
+        display: block;
+    }
+    #section2 #div2{
+        width: 100%;
+    }
+    #section3{
+        height: 1700px;
+        display: block;
+    }
+    #section3 #div1, #section3 #div2, #section3 #div3{
+        width: 100%;
+    }
+    #section4{
+        height: 3900px;
+    }
+    #comment{
+        width: 90%;
+    }
+    h1{
+        font-size: 20px;
+    }
+} 
